@@ -121,7 +121,7 @@ def evaluate(data_loader, model, server_model, args, device):
     # print results to terminal
     print('* Masking mode:: {}, {} / Confidence criterion:: {}, {}'.format( \
      args.masking_mode, args.masking_th, args.uncer_mode, args.uncer_th))
-    print(f"* Sended token number:: {token_length:.4f} " \
+    print(f"* Sent token number:: {token_length:.4f} " \
         + f"/ Averaged minimum attention:: {min_cam:.4f} / Averaged sum of attention:: {cam_sum:.4f}")
     print('* Total confident image:: {}'.format(conf_imagenum))
     comm_cost = (50000-conf_imagenum)/50000 * token_length / 196
