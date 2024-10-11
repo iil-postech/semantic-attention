@@ -4,22 +4,12 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 
 ## [**Paper**](https://ieeexplore.ieee.org/document/10630703 "Attention-aware Semantic Communications for Collaborative Inference")
 ![alt Overall](/assets/overall.png/)
-<details>
-  <summary>[Citation]</summary>
 
-  ```
-  @ARTICLE{Im2024attention,
-    author={Im, Jiwoong and Kwon, Nayoung and Park, Taewoo and Woo, Jiheon and Lee, Jaeho and Kim, Yongjune},
-    journal={IEEE Internet of Things Journal}, 
-    title={Attention-Aware Semantic Communications for Collaborative Inference}, 
-    year={2024},
-    month={August}
-  }
-  ```
+
 </details>
 
 
-## Result
+## Experimental Results
 <div align="center">
 <img src="/assets/comm-acc.png" alt="Result" width="600">
 </div>
@@ -71,15 +61,27 @@ Accuracy of the server model: 80.23 %
 ```
 
 ### Code arguments
-- **Model**: Weak classifier assumed that of the edge device
-- **Server-model**: Strong classifier assumed that of the server
+- **Model**: Weak classifier of the edge device
+- **Server-model**: Strong classifier of the server
 - **Batch-size**
 - **Data-path**: Path to the image dataset
 - **Attention_mode**: Attention score measure ('mean' or 'rollout')
 - **Masking_mode**: Patch selection rules ('random', 'topk', 'attention_threshold', or 'attention_sum_threshold')
 - **Uncer_mode**: Uncertainty measures ('shannon_entropy', 'min_entropy', or 'margin')
-- **Masking_th**: $\delta$, threshold for patch selection
-- **Uncer_th**: $\eta$, threshold for selective image transmission
+- **Masking_th**: $\delta$, threshold for attention-aware patch selection
+- **Uncer_th**: $\eta$, threshold for entropy-aware image transmission
+
+## Citation
+
+  ```
+  @ARTICLE{Im2024attention,
+    author={Im, Jiwoong and Kwon, Nayoung and Park, Taewoo and Woo, Jiheon and Lee, Jaeho and Kim, Yongjune},
+    journal={IEEE Internet of Things Journal}, 
+    title={Attention-Aware Semantic Communications for Collaborative Inference}, 
+    year={2024},
+    month={August}
+  }
+  ```
 
 
 
