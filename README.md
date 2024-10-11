@@ -3,7 +3,7 @@
 This repository is the official implementation of the IoT-J. 2024 paper "Attention-aware Semantic Communications for Collaborative Inference".
 
 ## [**Paper**](https://ieeexplore.ieee.org/document/10630703 "Attention-aware Semantic Communications for Collaborative Inference")
-![alt overall](/assets/overall.png/)
+![alt Overall](/assets/overall.png/)
 <details>
   <summary>[Citation]</summary>
 
@@ -20,7 +20,11 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 
 
 ## Result
+<div align="center">
+<img src="/assets/comm-acc.png" alt="Result" width="600">
+</div>
 
+- Edge device model: DeiT-Tiny / Server model: DeiT-Base
 
 ## Installation
 You should install the previous versions of python, pytorch, torchvision, and timm.
@@ -47,7 +51,7 @@ We recommend python, pytorch, torchvision, and timm as 3.7.2, 1.8.1, 0.9.1, and 
 
 
 ## Running the code
-You can use provided .sh file.
+You can use the provided .sh file.
 ```
 sh run.sh
 ```
@@ -59,7 +63,7 @@ python main.py --batch-size [INT] --data-path [PATH] --device cpu
 Without any modification, the expected output will be:
 ```
 * Masking mode:: attention_sum_threshold, 0.97 / Confidence criterion:: min_entropy, 1.0
-* Sended token number:: 148.8113 / Averaged minimum attention:: 0.0011 / Averaged sum of attention:: 0.9694
+* Sent token number:: 148.8113 / Averaged minimum attention:: 0.0011 / Averaged sum of attention:: 0.9694
 * Total confident image:: 32171.0
 * Communication cost:: 0.27073030612244897
 Accuracy of the client model: 72.13 %
@@ -67,4 +71,17 @@ Accuracy of the server model: 80.23 %
 ```
 
 ### Code arguments
-- 
+- **Model**: Weak classifier assumed that of the edge device
+- **Server-model**: Strong classifier assumed that of the server
+- **Batch-size**
+- **Data-path**: Path to the image dataset
+- **Attention_mode**: Attention score measure ('mean' or 'rollout')
+- **Masking_mode**: Patch selection rules ('random', 'topk', 'attention_threshold', or 'attention_sum_threshold')
+- **Uncer_mode**: Uncertainty measures ('shannon_entropy', 'min_entropy', or 'margin')
+- **Masking_th**: $\delta$, threshold for patch selection
+- **Uncer_th**: $\eta$, threshold for selective image transmission
+
+
+
+## License
+Codes are available only for non-commercial research purposes.
