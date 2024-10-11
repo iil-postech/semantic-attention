@@ -1,8 +1,9 @@
-# Attention-aware Semantic Communications for Collaborative Inference (IoT-J. 2024)
+# Attention-aware Semantic Communications for Collaborative Inference
 
 This repository is the official implementation of the IoT-J. 2024 paper "Attention-aware Semantic Communications for Collaborative Inference".
 
 ## [**Paper**](https://ieeexplore.ieee.org/document/10630703 "Attention-aware Semantic Communications for Collaborative Inference")
+![alt overall](/assets/overall.png/)
 <details>
   <summary>[Citation]</summary>
 
