@@ -19,4 +19,52 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 </details>
 
 
-## 
+## Result
+
+
+## Installation
+You should install the previous versions of python, pytorch, torchvision, and timm.
+
+We recommend python, pytorch, torchvision, and timm as 3.7.2, 1.8.1, 0.9.1, and 0.3.2, respectively.
+
+- python < 3.10
+
+- pytorch, torchvision for CUDA 11.1
+  ```
+  pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+  ```
+  You can install other versions appropriate to your CUDA version in [Pytorch](https://pytorch.org/get-started/previous-versions/ "Previous Torch Versions").
+
+- timm == 0.3.2
+  ```
+  pip install timm==0.3.2
+  ```
+
+- matplotlib, seaborn
+  ```
+  pip install matplotlib, seaborn
+  ```
+
+
+## Running the code
+You can use provided .sh file.
+```
+sh run.sh
+```
+In another case, you can run using terminal commands on the CPU.
+```
+python main.py --batch-size [INT] --data-path [PATH] --device cpu
+```
+
+Without any modification, the expected output will be:
+```
+* Masking mode:: attention_sum_threshold, 0.97 / Confidence criterion:: min_entropy, 1.0
+* Sended token number:: 148.8113 / Averaged minimum attention:: 0.0011 / Averaged sum of attention:: 0.9694
+* Total confident image:: 32171.0
+* Communication cost:: 0.27073030612244897
+Accuracy of the client model: 72.13 %
+Accuracy of the server model: 80.23 %
+```
+
+### Code arguments
+- 
