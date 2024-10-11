@@ -77,7 +77,7 @@ Accuracy of the server model: 80.23 %
   @ARTICLE{Im2024attention,
     author={Im, Jiwoong and Kwon, Nayoung and Park, Taewoo and Woo, Jiheon and Lee, Jaeho and Kim, Yongjune},
     journal={IEEE Internet of Things Journal}, 
-    title={Attention-Aware Semantic Communications for Collaborative Inference}, 
+    title={Attention-aware Semantic Communications for Collaborative Inference}, 
     year={2024},
     month={August}
   }
