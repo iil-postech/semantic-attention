@@ -18,6 +18,11 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 
 
 ## Installation
+Firstly, clone the repository into your environment.
+```
+git clone https://github.com/iil-postech/semantic-attention/
+```
+
 Python packages pytorch, torchvision, timm, matplotlib, and seaborn are required.
 
 We recommend the python, pytorch, torchvision, and timm versions as 3.7.2, 1.8.1, 0.9.1, and 0.3.2, respectively.
