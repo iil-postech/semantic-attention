@@ -6,7 +6,6 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 ![alt Overall](/assets/overall.png/)
 
 
-</details>
 
 
 ## Experimental Results
@@ -16,18 +15,20 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 
 - Edge device model: DeiT-Tiny / Server model: DeiT-Base
 
+
+
 ## Installation
-You should install the previous versions of python, pytorch, torchvision, and timm.
+Python packages pytorch, torchvision, timm, matplotlib, and seaborn are required.
 
-We recommend python, pytorch, torchvision, and timm as 3.7.2, 1.8.1, 0.9.1, and 0.3.2, respectively.
+We recommend the python, pytorch, torchvision, and timm versions as 3.7.2, 1.8.1, 0.9.1, and 0.3.2, respectively.
 
-- python < 3.10
+- python < 3.10 (recommend to 3.7.2)
 
 - pytorch, torchvision for CUDA 11.1
   ```
   pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
   ```
-  You can install other versions appropriate to your CUDA version in [Pytorch](https://pytorch.org/get-started/previous-versions/ "Previous Torch Versions").
+  Other versions (for other CUDA versions) are provided in [Pytorch](https://pytorch.org/get-started/previous-versions/ "Previous Torch Versions").
 
 - timm == 0.3.2
   ```
@@ -36,8 +37,9 @@ We recommend python, pytorch, torchvision, and timm as 3.7.2, 1.8.1, 0.9.1, and 
 
 - matplotlib, seaborn
   ```
-  pip install matplotlib, seaborn
+  pip install matplotlib seaborn
   ```
+
 
 
 ## Running the code
@@ -70,6 +72,8 @@ Accuracy of the server model: 80.23 %
 - **Uncer_mode**: Uncertainty measures ('shannon_entropy', 'min_entropy', or 'margin')
 - **Masking_th**: $\delta$, threshold for attention-aware patch selection
 - **Uncer_th**: $\eta$, threshold for entropy-aware image transmission
+
+
 
 ## Citation
 
