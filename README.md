@@ -50,12 +50,12 @@ We recommend the python, pytorch, torchvision, and timm versions as 3.7.2, 1.8.1
 ## Running the code
 You can use the provided .sh file.
 ```
-cd collaborative-inference
+cd semantic-attention\collaborative-inference
 sh run.sh
 ```
 Also, you can run using terminal commands on the CPU.
 ```
-cd semantic-attention/collaborative-inference
+cd semantic-attention\collaborative-inference
 python main.py --batch-size [INT] --data-path [PATH] --device cpu
 ```
 
