@@ -62,12 +62,12 @@ python main.py --batch-size [INT] --data-path [PATH] --device cpu
 
 Without any modification, the expected output will be:
 ```
-* Masking mode:: attention_sum_threshold, 0.97 / Confidence criterion:: min_entropy, 1.0
-* Sent token number:: 148.8113 / Averaged minimum attention:: 0.0011 / Averaged sum of attention:: 0.9694
-* Total confident image:: 32171.0
-* Communication cost:: 0.27073030612244897
+* Masking mode:: attention_sum_threshold, 0.97 / Confidence criterion:: min_entropy, 0.8
+* Sent token number:: 147.9605 / Averaged minimum attention:: 0.0011 / Averaged sum of attention:: 0.9695
+* Total confident image:: 28566.0
+* Communication cost:: 0.3236108163265306
 Client only accuracy: 72.13 %
-Collaborative accuracy: 80.23 %
+Collaborative accuracy: 80.83 %
 ```
 
 In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**. \
@@ -89,6 +89,7 @@ Be sure that the Jupyter Notebook code does not include the entropy-aware image 
 - **Uncer_mode**: Uncertainty measures ('shannon_entropy', 'min_entropy', or 'margin')
 - **Masking_th**: $\delta$, threshold for attention-aware patch selection
 - **Uncer_th**: $\eta$, threshold for entropy-aware image transmission
+- **Output_dir**: Path to save sample images, empty for no saving
 
 
 
