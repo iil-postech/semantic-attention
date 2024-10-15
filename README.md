@@ -65,8 +65,8 @@ Without any modification, the expected output will be:
 * Sent token number:: 148.8113 / Averaged minimum attention:: 0.0011 / Averaged sum of attention:: 0.9694
 * Total confident image:: 32171.0
 * Communication cost:: 0.27073030612244897
-Accuracy of the client model: 72.13 %
-Accuracy of the server model: 80.23 %
+Client only accuracy: 72.13 %
+Collaborative accuracy: 80.23 %
 ```
 
 In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**. \
