@@ -126,8 +126,8 @@ def evaluate(data_loader, model, server_model, args, device):
     print('* Total confident image:: {}'.format(conf_imagenum))
     comm_cost = (50000-conf_imagenum)/50000 * token_length / 196
     print('* Communication cost:: {}'.format(comm_cost))
-    print(f'Accuracy of the client model: {client_acc:.2f} %')
-    print(f'Accuracy of the server model: {server_acc:.2f} %')
+    print(f'Client only accuracy: {client_acc:.2f} %')
+    print(f'Collaborative accuracy: {server_acc:.2f} %')
 
 
     # print results to text file
