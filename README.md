@@ -55,7 +55,7 @@ sh run.sh
 ```
 Also, you can run using terminal commands on the CPU.
 ```
-cd collaborative-inference
+cd semantic-attention/collaborative-inference
 python main.py --batch-size [INT] --data-path [PATH] --device cpu
 ```
 
