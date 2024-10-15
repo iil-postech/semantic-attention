@@ -21,6 +21,7 @@ This repository is the official implementation of the IoT-J. 2024 paper "Attenti
 Firstly, clone the repository into your environment.
 ```
 git clone https://github.com/iil-postech/semantic-attention/
+cd semantic-attention
 ```
 
 Python packages pytorch, torchvision, timm, matplotlib, and seaborn are required.
@@ -48,14 +49,14 @@ We recommend the python, pytorch, torchvision, and timm versions as 3.7.2, 1.8.1
 
 
 ## Running the code
-You can use the provided .sh file.
+You can use the provided .sh file in the '*collaborative-inference*' directory.
 ```
-cd semantic-attention\collaborative-inference
+cd collaborative-inference
 sh run.sh
 ```
 Also, you can run using terminal commands on the CPU.
 ```
-cd semantic-attention\collaborative-inference
+cd collaborative-inference
 python main.py --batch-size [INT] --data-path [PATH] --device cpu
 ```
 
