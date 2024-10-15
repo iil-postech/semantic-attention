@@ -27,7 +27,7 @@ Python packages pytorch, torchvision, timm, matplotlib, and seaborn are required
 
 We recommend the python, pytorch, torchvision, and timm versions as 3.7.2, 1.8.1, 0.9.1, and 0.3.2, respectively.
 
-- python < 3.10 (recommend to 3.7.2)
+- python < 3.10 (recommend)
 
 - pytorch, torchvision for CUDA 11.1
   ```
@@ -50,10 +50,12 @@ We recommend the python, pytorch, torchvision, and timm versions as 3.7.2, 1.8.1
 ## Running the code
 You can use the provided .sh file.
 ```
+cd collaborative-inference
 sh run.sh
 ```
-In another case, you can run using terminal commands on the CPU.
+Also, you can run using terminal commands on the CPU.
 ```
+cd collaborative-inference
 python main.py --batch-size [INT] --data-path [PATH] --device cpu
 ```
 
@@ -66,6 +68,15 @@ Without any modification, the expected output will be:
 Accuracy of the client model: 72.13 %
 Accuracy of the server model: 80.23 %
 ```
+
+In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**. \
+It comprises:
+  1) Inference on the client model
+  2) Patch selection based on the attention scores
+  3) Visualization of the attention scores' heatmap
+  4) Inference on the server model.
+
+Be sure that the Jupyter Notebook code does not include the entropy-aware image transmission.
 
 ### Code arguments
 - **Model**: Weak classifier of the edge device
