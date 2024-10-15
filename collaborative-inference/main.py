@@ -20,12 +20,12 @@ def get_args_parser():
     # Masking parameters
     parser.add_argument('--masking_mode', default='topk', choices=['topk', 'attention_threshold', 'attention_sum_threshold', 'random'],type=str, help='image masking mode')
     parser.add_argument('--attention_mode', default='mean', choices=['mean', 'rollout'], type=str, help='attention score computing mode')
-    parser.add_argument('--masking_th', default=196.0, type=float, help='masking threshold')
+    parser.add_argument('--masking_th', default=0.97, type=float, help='masking threshold')
 
 
     # Uncertainty system parameters
     parser.add_argument('--uncer_mode', default='', choices=['','shannon_entropy','margin','min_entropy'], type=str, help='uncertainty measure')
-    parser.add_argument('--uncer_th', default=5.0, type=float)
+    parser.add_argument('--uncer_th', default=0.8, type=float)
 
     parser.add_argument('--attention_histogram', action='store_true')
     parser.set_defaults(attention_histogram=False)
