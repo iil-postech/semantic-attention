@@ -71,9 +71,10 @@ Collaborative accuracy: 80.83 %
 ```
 
 In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**. \
-It comprises: <a href="https://colab.research.google.com/github/iil-postech/semantic-attention/blob/main/visualization_example.ipynb" target="_parent">
+ <a href="https://colab.research.google.com/github/iil-postech/semantic-attention/blob/main/visualization_example.ipynb" target="_parent">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+It comprises:
 
   1) Inference on the client model
   2) Patch selection based on the attention scores
