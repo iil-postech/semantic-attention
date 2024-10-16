@@ -91,6 +91,10 @@ Make sure the Jupyter Notebook code excludes the entropy-aware image transmissio
 - **Uncer_th**: $\eta$, threshold for entropy-aware image transmission
 - **Output_dir**: Path to save sample images, empty for no saving
 
+#colab
+<a href="https://colab.research.google.com/github/iil-postech/semantic-attention/blob/main/visualization_example.ipynb" target="_parent">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 
 ## Citation
