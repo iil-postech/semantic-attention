@@ -71,7 +71,10 @@ Collaborative accuracy: 80.83 %
 ```
 
 In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**. \
-It comprises:
+It comprises: <a href="https://colab.research.google.com/github/iil-postech/semantic-attention/blob/main/visualization_example.ipynb" target="_parent">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
   1) Inference on the client model
   2) Patch selection based on the attention scores
   3) Visualization of the attention heatmaps
@@ -90,11 +93,6 @@ Make sure the Jupyter Notebook code excludes the entropy-aware image transmissio
 - **Masking_th**: $\delta$, threshold for attention-aware patch selection
 - **Uncer_th**: $\eta$, threshold for entropy-aware image transmission
 - **Output_dir**: Path to save sample images, empty for no saving
-
-## Colab
-<a href="https://colab.research.google.com/github/iil-postech/semantic-attention/blob/main/visualization_example.ipynb" target="_parent">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
 
 ## Citation
 
