@@ -74,10 +74,10 @@ In another case, you can also test the provided Jupyter Notebook code, **visuali
 It comprises:
   1) Inference on the client model
   2) Patch selection based on the attention scores
-  3) Visualization of the attention scores' heatmap
-  4) Inference on the server model.
+  3) Visualization of the attention heatmaps
+  4) Inference on the server model
 
-Be sure that the Jupyter Notebook code does not include the entropy-aware image transmission.
+Make sure the Jupyter Notebook code excludes the entropy-aware image transmission.
 
 ### Code arguments
 - **Model**: Weak classifier of the edge device
