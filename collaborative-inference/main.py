@@ -1,3 +1,13 @@
+'''
+This is the official implementation of the IoT-J paper
+"Attention-aware Semantic Communications for Collaborative Inference"
+by Jiwoong Im, Nayoung Kwon, Taewoo Park, Jiheon Woo, Jaeho Lee, and Yongjune Kim.
+
+The code is based on DeiT (ICML 2021, https://github.com/facebookresearch/deit),
+MAE (CVPR 2022, https://github.com/facebookresearch/mae),
+MaskedKD (ECCV 2024, https://github.com/effl-lab/MaskedKD).
+'''
+
 import argparse
 import numpy as np
 import torch
