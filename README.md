@@ -70,7 +70,7 @@ Client only accuracy: 72.13 %
 Collaborative accuracy: 80.83 %
 ```
 
-In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**. \
+In another case, you can also test the provided Jupyter Notebook code, **visualization_example.ipynb**.
 
 
 It comprises:
