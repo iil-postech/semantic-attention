@@ -1,4 +1,9 @@
-# class number to label string dictionary
+'''
+
+Dictionary for changing class numbers to human-readable labels
+Only used in visualization_example.ipynb (not used in main.py and else)
+
+'''
 class_to_label = {0: 'tench, Tinca tinca',
  1: 'goldfish, Carassius auratus',
  2: 'great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias',
