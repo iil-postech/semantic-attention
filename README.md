@@ -114,3 +114,6 @@ Make sure the Jupyter Notebook code excludes the entropy-aware image transmissio
 
 ## License
 Codes are available only for non-commercial research purposes.
+
+## Acknowledgment
+This repository is based on [DeiT](https://github.com/facebookresearch/deit "DeiT"), [MAE](https://github.com/facebookresearch/mae "MAE"), and [MaskedKD](https://github.com/effl-lab/MaskedKD "MaskedKD").
