@@ -36,7 +36,7 @@ The mean attention score is better in the interested region (communication cost 
   <img src="/assets/patch_selection_overall.png"  alt="Patch selection rules overall" width="49%">
 </p>
 
-Both the attention threshold selection and the attention-sum threshold selection are better in the interested region (communication cost $\ge$ 0.5).
+The attention threshold selection and the attention-sum threshold selection are better in the interested region (communication cost $\ge$ 0.5).
 
 ### Uncertainty Measures
 <p align="center">
