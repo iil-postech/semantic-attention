@@ -16,6 +16,14 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 - Edge device model: DeiT-Tiny / Server model: DeiT-Base
 
 
+<p align="center">
+  <img src="/assets/attention_measure.png" alt="Image 1" width="45%">
+  <img src="/assets/attention_measure_overall.png"  alt="Image 2" width="45%">
+</p>
+
+
+Comparison of mean attention score and attention rollout
+- Edge device model: DeiT-Tiny / Server model: DeiT-Base
 
 ## Installation
 Firstly, clone the repository into your environment.
