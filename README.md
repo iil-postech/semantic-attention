@@ -8,12 +8,12 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 
 
 
-## Experimental Results
+## Experimental results
 
 - Edge device model: DeiT-Tiny
 - Server model: DeiT-Base
 
-### Main Result
+### Main result
 <div align="center">
   <img src="/assets/comm-acc.png" alt="Main result" width="600">
 </div>
@@ -22,7 +22,7 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 - Patch selection rule: Attention-sum threshold selection
 - Uncertainty measure: Min-entropy
 
-### Comparison of Attention Score Measures
+### Comparison of attention score measures
 <p align="center">
   <img src="/assets/attention_measure.png" alt="Attention score measures" width="49%">
   <img src="/assets/attention_measure_overall.png"  alt="Attention score measures overall" width="49%">
@@ -30,7 +30,7 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 
 The mean attention score is better in the interested region (communication cost $\ge$ 0.5).
 
-### Comparison of Patch Selection Rules
+### Comparison of patch selection rules
 <p align="center">
   <img src="/assets/patch_selection.png" alt="Patch selection rules" width="49%">
   <img src="/assets/patch_selection_overall.png"  alt="Patch selection rules overall" width="49%">
@@ -38,7 +38,7 @@ The mean attention score is better in the interested region (communication cost 
 
 The attention threshold selection and the attention-sum threshold selection are better in the interested region (communication cost $\ge$ 0.5).
 
-### Comparison of Uncertainty Measures
+### Comparison of uncertainty measures
 <p align="center">
   <img src="/assets/uncertainty_measure.png" alt="Uncertainty measures overall" width="49%">
 </p>
