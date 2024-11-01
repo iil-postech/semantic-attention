@@ -39,7 +39,7 @@ The attention-sum threshold selection is the best in the interested region (comm
 
 ### Uncertainty Measures
 <p align="center">
-  <img src="/assets/uncertainty_measure_overall.png" alt="Uncertainty measures overall" width="49%">
+  <img src="/assets/uncertainty_measure.png" alt="Uncertainty measures overall" width="49%">
 </p>
 
 The min-entropy is better in the overall region.
