@@ -10,7 +10,8 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 
 ## Experimental Results
 
-- Model: DeiT-Tiny $\rightarrow$ DeiT-Base
+- Edge device model: DeiT-Tiny
+- Server model: DeiT-Base
 
 ### Main Result
 <div align="center">
@@ -35,7 +36,7 @@ The mean attention score is better in the interested region (communication cost 
   <img src="/assets/patch_selection_overall.png"  alt="Patch selection rules overall" width="49%">
 </p>
 
-The attention-sum threshold selection is the best in the interested region (communication cost $\ge$ 0.5).
+Both the attention threshold selection and the attention-sum threshold selection are better in the interested region (communication cost $\ge$ 0.5).
 
 ### Uncertainty Measures
 <p align="center">
