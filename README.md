@@ -9,21 +9,41 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 
 
 ## Experimental Results
+
+- Model: DeiT-Tiny $\rightarrow$ DeiT-Base
+
+### Main Result
 <div align="center">
-<img src="/assets/comm-acc.png" alt="Result" width="600">
+  <img src="/assets/comm-acc.png" alt="Main result" width="600">
 </div>
 
-- Edge device model: DeiT-Tiny / Server model: DeiT-Base
+- Attention score measure: Mean attention score
+- Patch selection rule: Attention-sum threshold selection
+- Uncertainty measure: Min-entropy
 
-
+### Attention Score Measures
 <p align="center">
-  <img src="/assets/attention_measure.png" alt="Image 1" width="45%">
-  <img src="/assets/attention_measure_overall.png"  alt="Image 2" width="45%">
+  <img src="/assets/attention_measure.png" alt="Attention score measures" width="49%">
+  <img src="/assets/attention_measure_overall.png"  alt="Attention score measures overall" width="49%">
 </p>
 
+The mean attention score is better in the interested region (communication cost $\ge$ 0.5).
 
-Comparison of mean attention score and attention rollout
-- Edge device model: DeiT-Tiny / Server model: DeiT-Base
+### Patch Selection Rules
+<p align="center">
+  <img src="/assets/patch_selection.png" alt="Patch selection rules" width="49%">
+  <img src="/assets/patch_selection_overall.png"  alt="Patch selection rules overall" width="49%">
+</p>
+
+The attention-sum threshold selection is the best in the interested region (communication cost $\ge$ 0.5).
+
+### Uncertainty Measures
+<p align="center">
+  <img src="/assets/uncertainty_measure_overall.png" alt="Uncertainty measures overall" width="49%">
+</p>
+
+The min-entropy is better in the overall region.
+
 
 ## Installation
 Firstly, clone the repository into your environment.
