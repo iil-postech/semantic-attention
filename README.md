@@ -44,7 +44,7 @@ The attention threshold selection and the attention-sum threshold selection are 
   <img src="/assets/uncertainty_measure.png" alt="Uncertainty measures overall" width="49%">
 </p>
 
-The min-entropy is better in the overall region.
+The min-entropy is better than the Shannon entropy in the overall region.
 
 
 ## Installation
