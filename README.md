@@ -37,7 +37,7 @@ The mean attention score is better than attention rollout in the operating regim
   <img src="/assets/patch_selection_overall.png"  alt="Patch selection rules overall" width="49%">
 </p>
 
-The attention threshold selection and the attention-sum threshold selection are better than top-k in the operating regime allowing only marginal classification accuracy loss.
+The attention threshold selection and the attention-sum threshold selection are better than top-$k$ in the operating regime allowing only marginal classification accuracy loss.
 
 ### Comparison of uncertainty measures
 <p align="center">
