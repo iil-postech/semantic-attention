@@ -12,6 +12,7 @@ This repository is the official implementation of the IEEE Internet of Things Jo
 
 - Edge device model: DeiT-Tiny
 - Server model: DeiT-Base
+- Dataset: ImageNet
 
 ### Main result
 <div align="center">
@@ -28,7 +29,7 @@ This repository is the official implementation of the IEEE Internet of Things Jo
   <img src="/assets/attention_measure_overall.png"  alt="Attention score measures overall" width="49%">
 </p>
 
-The mean attention score is better in the interested region (communication cost $\ge$ 0.5).
+The mean attention score is better than attention rollout in the operating regime allowing only marginal classification accuracy loss.
 
 ### Comparison of patch selection rules
 <p align="center">
@@ -36,7 +37,7 @@ The mean attention score is better in the interested region (communication cost 
   <img src="/assets/patch_selection_overall.png"  alt="Patch selection rules overall" width="49%">
 </p>
 
-The attention threshold selection and the attention-sum threshold selection are better in the interested region (communication cost $\ge$ 0.5).
+The attention threshold selection and the attention-sum threshold selection are better than top-k in the operating regime allowing only marginal classification accuracy loss.
 
 ### Comparison of uncertainty measures
 <p align="center">
