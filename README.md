@@ -131,13 +131,16 @@ Make sure the Jupyter Notebook code excludes the entropy-aware image transmissio
 ## Citation
 
   ```
-  @ARTICLE{Im2024attention,
-    author={Im, Jiwoong and Kwon, Nayoung and Park, Taewoo and Woo, Jiheon and Lee, Jaeho and Kim, Yongjune},
-    journal={IEEE Internet of Things Journal}, 
-    title={Attention-aware Semantic Communications for Collaborative Inference}, 
-    year={2024},
-    month={August}
-  }
+@article{Im2024attention,
+    author = {Im, Jiwoong and Kwon, Nayoung and Park, Taewoo and Woo, Jiheon and Lee, Jaeho and Kim, Yongjune},
+    journal = {IEEE Internet of Things Journal}, 
+    title = {Attention-Aware Semantic Communications for Collaborative Inference}, 
+    year = {2024},
+    month = nov,
+    volume = 11,
+    number = 22,
+    pages = {37008--37020}
+}
   ```
 
 
