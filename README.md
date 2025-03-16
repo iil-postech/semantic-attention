@@ -1,6 +1,6 @@
 # Attention-Aware Semantic Communications for Collaborative Inference
 
-This repository provides the official implementation of the IEEE Internet of Things Journal paper "Attention-aware Semantic Communications for Collaborative Inference."
+This repository provides the official implementation of "Attention-aware Semantic Communications for Collaborative Inference" (IEEE Internet of Things Journal).
 
 ## [**Paper**](https://ieeexplore.ieee.org/document/10630703 "Attention-aware Semantic Communications for Collaborative Inference")
 ![alt Overall](/assets/overall.png/)
